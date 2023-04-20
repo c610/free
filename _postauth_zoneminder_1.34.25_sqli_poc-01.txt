@@ -1,0 +1,21 @@
+                                                                                                                                     
+┌──(c㉿kali)-[~/LABS/07.04.2023_ZoneMind]
+└─$ cat _SQLI_01_postauth.txt 
+GET /zm/index.php?view=timeline&filter%5BQuery%5D%5Bterms%5D%5B0%5D%5Battr%5D=MonitorId&filter%5BQuery%5D%5Bterms%5D%5B0%5D%5Bop%5D=IN&filter%5BQuery%5D%5Bterms%5D%5B0%5D%5Bval%5D=&filter%5BQuery%5D%5Bterms%5D%5B1%5D%5Bcnj%5D=and&filter%5BQuery%5D%5Bterms%5D%5B1%5D%5Battr%5D=StartDateTime&filter%5BQuery%5D%5Bterms%5D%5B1%5D%5Bop%5D=%3E%3D&filter%5BQuery%5D%5Bterms%5D%5B1%5D%5Bval%5D=&filter%5BQuery%5D%5Bterms%5D%5B2%5D%5Bcnj%5D=and&filter%5BQuery%5D%5Bterms%5D%5B2%5D%5Battr%5D=StartDateTime&filter%5BQuery%5D%5Bterms%5D%5B2%5D%5Bop%5D=%3C%3D&filter%5BQuery%5D%5Bterms%5D%5B2%5D%5Bval%5D=now&midTime=2023-04-07%2021:37:02&range=1680903423 HTTP/1.1
+Host: 192.168.56.122
+Cookie: zmSkin=classic; zmCSS=base; ZMSESSID=6ejql7s62vhdpjpn4imm3la64u
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: pl,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: https://192.168.56.122/zm/index.php?view=timeline&filter%5BQuery%5D%5Bterms%5D%5B0%5D%5Battr%5D=MonitorId&filter%5BQuery%5D%5Bterms%5D%5B0%5D%5Bop%5D=IN&filter%5BQuery%5D%5Bterms%5D%5B0%5D%5Bval%5D=
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
+
+
+Fri Apr  7 03:45:04 PM EDT 2023
