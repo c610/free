@@ -7,7 +7,7 @@
 # Tue Feb  4 06:12:20 EST 2025 
 # by code610 
 # 
-# More: 
+# More: https://code610.blogspot.com/2025/05/watchguard-1211-firebox-postauth-cli.html
 # 
 network_device= { 
     "host": "192.168.181.164", 
